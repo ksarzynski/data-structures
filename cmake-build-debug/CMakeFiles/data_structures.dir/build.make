@@ -212,6 +212,25 @@ CMakeFiles\data_structures.dir\sources\PrintHelper.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\data_structures.dir\sources\PrintHelper.cpp.s /c C:\Users\kacpe\CLionProjects\data_structures\sources\PrintHelper.cpp
 <<
 
+CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: CMakeFiles\data_structures.dir\flags.make
+CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\sources\ConsoleApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kacpe\CLionProjects\data_structures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/data_structures.dir/sources/ConsoleApp.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj /FdCMakeFiles\data_structures.dir\ /FS -c C:\Users\kacpe\CLionProjects\data_structures\sources\ConsoleApp.cpp
+<<
+
+CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures.dir/sources/ConsoleApp.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kacpe\CLionProjects\data_structures\sources\ConsoleApp.cpp
+<<
+
+CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures.dir/sources/ConsoleApp.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.s /c C:\Users\kacpe\CLionProjects\data_structures\sources\ConsoleApp.cpp
+<<
+
 # Object files for target data_structures
 data_structures_OBJECTS = \
 "CMakeFiles\data_structures.dir\main.cpp.obj" \
@@ -221,7 +240,8 @@ data_structures_OBJECTS = \
 "CMakeFiles\data_structures.dir\sources\MyBinaryHeap.cpp.obj" \
 "CMakeFiles\data_structures.dir\sources\MyBstNode.cpp.obj" \
 "CMakeFiles\data_structures.dir\sources\MyBinarySearchTree.cpp.obj" \
-"CMakeFiles\data_structures.dir\sources\PrintHelper.cpp.obj"
+"CMakeFiles\data_structures.dir\sources\PrintHelper.cpp.obj" \
+"CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj"
 
 # External object files for target data_structures
 data_structures_EXTERNAL_OBJECTS =
@@ -234,9 +254,10 @@ data_structures.exe: CMakeFiles\data_structures.dir\sources\MyBinaryHeap.cpp.obj
 data_structures.exe: CMakeFiles\data_structures.dir\sources\MyBstNode.cpp.obj
 data_structures.exe: CMakeFiles\data_structures.dir\sources\MyBinarySearchTree.cpp.obj
 data_structures.exe: CMakeFiles\data_structures.dir\sources\PrintHelper.cpp.obj
+data_structures.exe: CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj
 data_structures.exe: CMakeFiles\data_structures.dir\build.make
 data_structures.exe: CMakeFiles\data_structures.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kacpe\CLionProjects\data_structures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable data_structures.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kacpe\CLionProjects\data_structures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable data_structures.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\data_structures.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\data_structures.dir\objects1.rsp @<<
  /out:data_structures.exe /implib:data_structures.lib /pdb:C:\Users\kacpe\CLionProjects\data_structures\cmake-build-debug\data_structures.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

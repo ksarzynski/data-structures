@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/data_structures.dir/main.cpp.obj"
+  "CMakeFiles/data_structures.dir/sources/ConsoleApp.cpp.obj"
   "CMakeFiles/data_structures.dir/sources/MyArray.cpp.obj"
   "CMakeFiles/data_structures.dir/sources/MyBinaryHeap.cpp.obj"
   "CMakeFiles/data_structures.dir/sources/MyBinarySearchTree.cpp.obj"

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/kacpe/CLionProjects/data_structures/main.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/main.cpp.obj"
+  "C:/Users/kacpe/CLionProjects/data_structures/sources/ConsoleApp.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/ConsoleApp.cpp.obj"
   "C:/Users/kacpe/CLionProjects/data_structures/sources/MyArray.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/MyArray.cpp.obj"
   "C:/Users/kacpe/CLionProjects/data_structures/sources/MyBinaryHeap.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/MyBinaryHeap.cpp.obj"
   "C:/Users/kacpe/CLionProjects/data_structures/sources/MyBinarySearchTree.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/MyBinarySearchTree.cpp.obj"

@@ -153,6 +153,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+sources\ConsoleApp.obj: sources\ConsoleApp.cpp.obj
+
+.PHONY : sources\ConsoleApp.obj
+
+# target to build an object file
+sources\ConsoleApp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj
+.PHONY : sources\ConsoleApp.cpp.obj
+
+sources\ConsoleApp.i: sources\ConsoleApp.cpp.i
+
+.PHONY : sources\ConsoleApp.i
+
+# target to preprocess a source file
+sources\ConsoleApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.i
+.PHONY : sources\ConsoleApp.cpp.i
+
+sources\ConsoleApp.s: sources\ConsoleApp.cpp.s
+
+.PHONY : sources\ConsoleApp.s
+
+# target to generate assembly for a file
+sources\ConsoleApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.s
+.PHONY : sources\ConsoleApp.cpp.s
+
 sources\MyArray.obj: sources\MyArray.cpp.obj
 
 .PHONY : sources\MyArray.obj
@@ -354,6 +381,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sources/ConsoleApp.obj
+	@echo ... sources/ConsoleApp.i
+	@echo ... sources/ConsoleApp.s
 	@echo ... sources/MyArray.obj
 	@echo ... sources/MyArray.i
 	@echo ... sources/MyArray.s

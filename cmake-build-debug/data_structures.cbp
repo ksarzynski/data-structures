@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/headers/ConsoleApp.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/headers/MyArray.h">
 			<Option target="data_structures"/>
 		</Unit>
@@ -107,6 +110,9 @@
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/main.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/sources/ConsoleApp.cpp">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/sources/MyArray.cpp">
