@@ -91,15 +91,9 @@ int MyBinaryHeap::findByValue(int value) {
 }
 
 void MyBinaryHeap::createRandom(int newSize) {
-    srand(time(NULL));
-    if(this -> currentSize == 0){
-        for(int i = 0; i < newSize; i++){
-            this -> insert(rand() % 1000, 0);
-        }
-    }
-    else{
-        std::cout << "Array already exists, press button";
-        _getch();
+    this->currentSize = 0;
+    for(int i = 0; i < newSize; i++){
+        this -> insert(rand() % 1000, 0);
     }
 }
 

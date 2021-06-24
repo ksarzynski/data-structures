@@ -206,15 +206,12 @@ void MyList::print() {
 }
 
 void MyList::createRandom(int newSize) {
-    srand(time(nullptr));
-    if(!head){
-        for(int i = 0; i < newSize; i++){
-            this->pushFront(rand() % 1000);
-        }
-    }
-    else{
-        std::cout << "List already exists, press button";
-        _getch();
+    srand(time(NULL));
+    this->size = 0;
+    this->head = nullptr;
+    this->tail = nullptr;
+    for(int i = 0; i < newSize; i++){
+        this -> insert(rand() % 1000, 0);
     }
 }
 

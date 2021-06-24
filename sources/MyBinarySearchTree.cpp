@@ -60,6 +60,8 @@ int MyBinarySearchTree::findByValue(int value) {
 }
 
 void MyBinarySearchTree::createRandom(int newSize) {
+    this->size = 0;
+    this->root = nullptr;
     srand(time(NULL));
     for(int i = 0; i < newSize; i++){
         this -> insert(rand() % 1000, 0);

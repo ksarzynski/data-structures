@@ -95,14 +95,10 @@ void MyArray::print() {
 
 void MyArray::createRandom(int newSize) {
     srand(time(NULL));
-    if(this -> size == 0){
-        for(int i = 0; i < newSize; i++){
-            this -> insert(rand() % 1000, 0);
-        }
-    }
-    else{
-        std::cout << "Array already exists, press button";
-        _getch();
+    this->size = 0;
+    this->dataPointer = new int[size];
+    for(int i = 0; i < newSize; i++){
+        this -> insert(rand() % 1000, 0);
     }
 }
 
