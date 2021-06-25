@@ -149,3 +149,7 @@ int MyArray::findByValueNoCout(int value) {
         return INT_MIN;
     }
 }
+
+std::string MyArray::getName() {
+    return "MyArray";
+}

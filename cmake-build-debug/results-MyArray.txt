@@ -1,0 +1,11 @@
+MyArray:
+Inserting
+1000;0.0029759
+Removing by index
+1000;0.0030117
+Removing by value
+1000;0.0041677
+Finding by index
+1000;9.09e-05
+Finding by value
+1000;9.53e-05

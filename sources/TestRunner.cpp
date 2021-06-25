@@ -44,6 +44,15 @@ void TestRunner::run() {
             lineCounter++;
         }
     }
+    std::cout << "Do u want to save results? Enter 1 if yes\n";
+    std::cin >> input;
+    if(input == 1){
+        save = true;
+        std::cout << "Enter file name\n";
+        std::cin >> resultsFileName;
+    }
+    else
+        save = false;
     test("MyArray", fileValues);
     test("MyList", fileValues);
     test("MyBinaryHeap", fileValues);
@@ -60,7 +69,7 @@ int TestRunner::getInt(std::string content) {
     return value;
 }
 
-void TestRunner::test(const std::string& dataStructure, int *values) {
+void TestRunner::test(const std::string& dataStructure, const int *values) {
     if(dataStructure == "MyArray"){
         std::cout << "Testing MyArray:\n";
         int *temp = new int[7];
@@ -99,11 +108,11 @@ void TestRunner::test(MyDataStructure *myDataStructure, int *values) {
     std::default_random_engine generator;
     std::uniform_int_distribution<int> indexDistribution(0, myDataStructure->getSize());
     std::uniform_int_distribution<int> valueDistribution(0, 5000);
-    double insertTime = 0;
-    double removeByIndexTime = 0;
-    double removeByValueTime = 0;
-    double findByIndexTime = 0;
-    double findByValueTime = 0;
+    insertTime = 0;
+    removeByIndexTime = 0;
+    removeByValueTime = 0;
+    findByIndexTime = 0;
+    findByValueTime = 0;
     int index;
     int value;
     if(values[0] == 1){
@@ -167,5 +176,24 @@ void TestRunner::test(MyDataStructure *myDataStructure, int *values) {
             findByValueTime += diff.count();
         }
         std::cout << "Finding by value " << values[6] << " elements took: " << findByValueTime << " ms.\n";
+        if(save)
+            saveToFile(resultsFileName, values, myDataStructure->getName());
     }
+}
+
+void TestRunner::saveToFile(const std::string& fileName, int *values, const std::string& dataStructure) {
+    std::ofstream myFile;
+    myFile.open(fileName + "-" + dataStructure + ".txt");
+    myFile << dataStructure << ":\n";
+    myFile << "Inserting\n";
+    myFile << values[2] << ";" << insertTime << "\n";
+    myFile << "Removing by index\n";
+    myFile << values[3] << ";" << removeByIndexTime << "\n";
+    myFile << "Removing by value\n";
+    myFile << values[4] << ";" << removeByValueTime << "\n";
+    myFile << "Finding by index\n";
+    myFile << values[5] << ";" << findByIndexTime << "\n";
+    myFile << "Finding by value\n";
+    myFile << values[6] << ";" << findByValueTime << "\n";
+    myFile.close();
 }

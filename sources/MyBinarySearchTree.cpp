@@ -327,3 +327,7 @@ MyBstNode *MyBinarySearchTree::findByValueMBNNoCout(int value) {
     }
     return node;
 }
+
+std::string MyBinarySearchTree::getName() {
+    return "MyBinarySearchTree";
+}

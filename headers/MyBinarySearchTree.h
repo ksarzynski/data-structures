@@ -28,11 +28,11 @@ public:
     void postorder(MyBstNode * ptr);
     int getSize();
     int findByValueNoCout(int value);
+    std::string getName();
 
 private:
     MyBstNode * root;
     int size;
-
     void removeValue(MyBstNode * node, int value);
     MyBstNode * findByValueMBN(int value);
     MyBstNode * findByValueMBNNoCout(int value);

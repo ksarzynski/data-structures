@@ -22,6 +22,7 @@ public:
     void createRandom(int newSize);
     int getSize();
     int findByValueNoCout(int value);
+    std::string getName();
 
 private:
     int * dataPointer;

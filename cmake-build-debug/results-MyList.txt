@@ -1,0 +1,11 @@
+MyList:
+Inserting
+1000;0.0002984
+Removing by index
+1000;0.0002357
+Removing by value
+1000;0.0002957
+Finding by index
+1000;0.0001158
+Finding by value
+1000;9.91e-05

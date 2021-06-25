@@ -5,6 +5,7 @@
 #ifndef DATA_STRUCTURES_MYDATASTRUCTURE_H
 #define DATA_STRUCTURES_MYDATASTRUCTURE_H
 
+#include <string>
 
 class MyDataStructure {
 
@@ -19,6 +20,7 @@ public:
     virtual void createRandom(int newSize) = 0;
     virtual int getSize() = 0;
     virtual int findByValueNoCout(int value) = 0;
+    virtual std::string getName() = 0;
 };
 
 

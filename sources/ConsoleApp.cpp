@@ -9,6 +9,7 @@
 #include "../headers/MyList.h"
 #include "../headers/MyBinaryHeap.h"
 #include "../headers/MyBinarySearchTree.h"
+#include "../headers/TestRunner.h"
 
 ConsoleApp::ConsoleApp() {
     running = true;
@@ -80,7 +81,7 @@ void ConsoleApp::manualTesting() {
 }
 
 void ConsoleApp::automaticTesting() {
-
+    new TestRunner();
 }
 
 void ConsoleApp::testingStructure() {

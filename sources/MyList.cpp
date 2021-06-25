@@ -320,3 +320,7 @@ MyListElement* MyList::findElementByValueMLENoCout(int value) {
         return nullptr;
     }
 }
+
+std::string MyList::getName() {
+    return "MyList";
+}

@@ -23,6 +23,7 @@ public:
     void print();
     int getSize();
     int findByValueNoCout(int value);
+    std::string getName();
 
 private:
     int * array;

@@ -166,3 +166,7 @@ int MyBinaryHeap::findByValueNoCout(int value) {
     }
     return temp;
 }
+
+std::string MyBinaryHeap::getName() {
+    return "MyBinaryHeap";
+}

@@ -72,10 +72,19 @@ public:
     TestRunner();
 
 private:
+    double insertTime;
+    double removeByIndexTime;
+    double removeByValueTime;
+    double findByIndexTime;
+    double findByValueTime;
+    bool save;
+    int input;
+    std::string resultsFileName;
     void run();
     int getInt(std::string content);
-    void test(const std::string& dataStructure, int *values);
+    void test(const std::string& dataStructure, const int *values);
     void test(MyDataStructure *myDataStructure, int *values);
+    void saveToFile(const std::string& fileName, int *values, const std::string& dataStructure);
 };
 
 

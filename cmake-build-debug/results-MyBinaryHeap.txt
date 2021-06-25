@@ -1,0 +1,11 @@
+MyBinaryHeap:
+Inserting
+1000;9.96e-05
+Removing by index
+0;0
+Removing by value
+1000;0.002607
+Finding by index
+0;0
+Finding by value
+1000;0.0033037

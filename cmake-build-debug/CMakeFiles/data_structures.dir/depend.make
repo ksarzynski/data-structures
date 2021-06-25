@@ -3,7 +3,6 @@
 
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\headers\ConsoleApp.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\headers\MyDataStructure.h
-CMakeFiles\data_structures.dir\main.cpp.obj: ..\headers\TestRunner.h
 CMakeFiles\data_structures.dir\main.cpp.obj: ..\main.cpp
 
 CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\headers\ConsoleApp.h
@@ -15,6 +14,7 @@ CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\headers\MyDataStru
 CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\headers\MyList.h
 CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\headers\MyListElement.h
 CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\headers\PrintHelper.h
+CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\headers\TestRunner.h
 CMakeFiles\data_structures.dir\sources\ConsoleApp.cpp.obj: ..\sources\ConsoleApp.cpp
 
 CMakeFiles\data_structures.dir\sources\MyArray.cpp.obj: ..\headers\MyArray.h

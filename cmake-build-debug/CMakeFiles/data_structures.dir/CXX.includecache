@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyArray.h
+MyDataStructure.h
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinaryHeap.h
+xstring
+-
+MyDataStructure.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinarySearchTree.h
+MyDataStructure.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+MyBstNode.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyBstNode.h
+PrintHelper.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h
+
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyBstNode.h
+
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+string
+-
 
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyList.h
 MyListElement.h
@@ -16,11 +38,37 @@ C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
 
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyListElement.h
 
-C:/Users/kacpe/CLionProjects/data_structures/sources/MyList.cpp
-iostream
+C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h
+xstring
+-
+
+C:/Users/kacpe/CLionProjects/data_structures/headers/TestRunner.h
+string
 -
 conio.h
 -
+MyDataStructure.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+
+C:/Users/kacpe/CLionProjects/data_structures/sources/TestRunner.cpp
+iostream
+-
+string
+-
+fstream
+-
+random
+-
+chrono
+-
+../headers/TestRunner.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/TestRunner.h
+../headers/MyArray.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyArray.h
 ../headers/MyList.h
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyList.h
+../headers/MyBinaryHeap.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinaryHeap.h
+../headers/MyBinarySearchTree.h
+C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinarySearchTree.h
 

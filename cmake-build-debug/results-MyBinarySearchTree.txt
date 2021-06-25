@@ -1,0 +1,11 @@
+MyBinarySearchTree:
+Inserting
+1000;0.0260392
+Removing by index
+0;0
+Removing by value
+1000;0.0833843
+Finding by index
+0;0
+Finding by value
+1000;0.0002591
