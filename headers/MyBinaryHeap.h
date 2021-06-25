@@ -22,6 +22,7 @@ public:
     void createRandom(int newSize);
     void print();
     int getSize();
+    int findByValueNoCout(int value);
 
 private:
     int * array;

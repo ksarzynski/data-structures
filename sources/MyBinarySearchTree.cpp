@@ -56,7 +56,12 @@ int MyBinarySearchTree::findByIndex(int index) {
 }
 
 int MyBinarySearchTree::findByValue(int value) {
-    return findByValueMBN(value)->key;
+    MyBstNode *node = findByValueMBN(value);
+    if(node != nullptr){
+        return node->getKey();
+    }
+    else
+        return INT_MIN;
 }
 
 void MyBinarySearchTree::createRandom(int newSize) {
@@ -295,4 +300,30 @@ void MyBinarySearchTree::print(MyBstNode *node, PrintHelper *prev, bool isLeft) 
 
 int MyBinarySearchTree::getSize() {
     return this->size;
+}
+
+int MyBinarySearchTree::findByValueNoCout(int value) {
+    MyBstNode *node = findByValueMBNNoCout(value);
+    if(node != nullptr)
+        return node->getKey();
+    else
+        return INT_MIN;}
+
+MyBstNode *MyBinarySearchTree::findByValueMBNNoCout(int value) {
+    MyBstNode * node = root;
+    if(node == nullptr){
+        return nullptr;
+    }
+    if(root -> getKey() == value)
+        return root;
+    while((node != nullptr) && (node -> getKey() != value)){
+        if(value < node -> getKey() && node -> left != nullptr)
+            node = node -> left;
+        else if(value > node -> getKey() && node -> right != nullptr)
+            node = node -> right;
+        else{
+            return nullptr;
+        }
+    }
+    return node;
 }

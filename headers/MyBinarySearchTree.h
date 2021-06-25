@@ -27,6 +27,7 @@ public:
     void inorder(MyBstNode * ptr);
     void postorder(MyBstNode * ptr);
     int getSize();
+    int findByValueNoCout(int value);
 
 private:
     MyBstNode * root;
@@ -34,6 +35,7 @@ private:
 
     void removeValue(MyBstNode * node, int value);
     MyBstNode * findByValueMBN(int value);
+    MyBstNode * findByValueMBNNoCout(int value);
     MyBstNode * findSuccessor(MyBstNode * node);
     MyBstNode * findPredecessor(MyBstNode * node);
     void dsw(MyBstNode * node);

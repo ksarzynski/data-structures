@@ -41,7 +41,6 @@ void MyBinaryHeap::insert(int data, int index) {
 
 void MyBinaryHeap::remove(int index) {
     if(index < 0){
-
         std::cout << "Wrong index, press button";
         _getch();
     }
@@ -152,4 +151,18 @@ void MyBinaryHeap::repair(int index) {
 
 int MyBinaryHeap::getSize() {
     return this->currentSize;
+}
+
+int MyBinaryHeap::findByValueNoCout(int value) {
+    int temp = INT_MIN;
+    for(int i = 0; i < currentSize; i++){
+        if(array[i] == value){
+            temp = i;
+            break;
+        }
+    }
+    if(temp == INT_MIN){
+        return INT_MIN;
+    }
+    return temp;
 }

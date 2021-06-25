@@ -109,6 +109,9 @@
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/headers/TestRunner.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/main.cpp">
 			<Option target="data_structures"/>
 		</Unit>
@@ -134,6 +137,9 @@
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/sources/PrintHelper.cpp">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/sources/TestRunner.cpp">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="C:/Users/kacpe/CLionProjects/data_structures/CMakeLists.txt">

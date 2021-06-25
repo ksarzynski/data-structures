@@ -166,22 +166,18 @@ void MyList::remove(int index) {
 
 void MyList::removeValue(int value) {
     if(findByValue(value) != INT_MIN){
-        if(findByValue(value) == 0)
+        if(findByIndex(0) == value){
             this->popFront();
-        else if(findByValue(value) == (this->getSize() - 1))
-            this->popBack();
-        else{
-            auto elementToDelete = this->findElementByValueMLE(+value);
-            auto temp = elementToDelete->prev;
-            elementToDelete->prev->next = elementToDelete->next;
-            elementToDelete->next->prev = temp;
-            delete elementToDelete;
-            this->size--;
         }
-    }
-    else{
-        std::cout << "Value not found, press button";
-        _getch();
+        else if(findByIndex(this->getSize() - 1) == value){
+            this->popBack();
+        }
+        else{
+            MyListElement *elementToDelete = findElementByValueMLE(value);
+            elementToDelete->next->prev = elementToDelete->prev;
+            elementToDelete->prev->next = elementToDelete->next;
+            delete elementToDelete;
+        }
     }
 }
 
@@ -190,7 +186,11 @@ int MyList::findByIndex(int index) {
 }
 
 int MyList::findByValue(int value) {
-    return findElementByValueMLE(value)->data;
+    MyListElement *element = findElementByValueMLE(value);
+    if(element != nullptr){
+        return element->data;
+    }
+    else return INT_MIN;
 }
 
 void MyList::print() {
@@ -198,11 +198,17 @@ void MyList::print() {
     std::cout << "size: " << size;
     std::cout << std::endl;
     auto temp = head;
-    while(temp){
+    while(temp != nullptr){
         std::cout << temp->data << " ";
         temp = temp->next;
     }
-    std::cout << std::endl << std::endl;
+    std::cout << std::endl;
+    temp = tail;
+    while(temp){
+        std::cout << temp->data << " ";
+        temp = temp->prev;
+    }
+    std::cout << std::endl;
 }
 
 void MyList::createRandom(int newSize) {
@@ -286,6 +292,31 @@ MyListElement *MyList::findElementByValueMLE(int value) {
     else{
         std::cout << "Missing head or tail, press button";
         _getch();
+        return nullptr;
+    }
+}
+
+int MyList::findByValueNoCout(int value) {
+    MyListElement *element = findElementByValueMLENoCout(value);
+    if(element != nullptr){
+        return element->data;
+    }
+    else return INT_MIN;
+}
+
+MyListElement* MyList::findElementByValueMLENoCout(int value) {
+    if(head && tail){
+        auto temp = head;
+        if(temp->data == value)
+            return temp;
+        while(temp->next){
+            if(temp->next->data == value)
+                return temp->next;
+            temp = temp->next;
+        }
+        return nullptr;
+    }
+    else{
         return nullptr;
     }
 }

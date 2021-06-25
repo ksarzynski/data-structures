@@ -6,30 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/kacpe/CLionProjects/data_structures/headers/ConsoleApp.h
-MyDataStructure.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
-
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyArray.h
-MyDataStructure.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
-
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinaryHeap.h
-xstring
--
-MyDataStructure.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
-
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinarySearchTree.h
-MyDataStructure.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
-MyBstNode.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyBstNode.h
-PrintHelper.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h
-
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyBstNode.h
-
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
 
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyList.h
@@ -39,38 +15,6 @@ MyDataStructure.h
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
 
 C:/Users/kacpe/CLionProjects/data_structures/headers/MyListElement.h
-
-C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h
-xstring
--
-
-C:/Users/kacpe/CLionProjects/data_structures/main.cpp
-headers/ConsoleApp.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/ConsoleApp.h
-
-C:/Users/kacpe/CLionProjects/data_structures/sources/MyArray.cpp
-iostream
--
-conio.h
--
-../headers/MyArray.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyArray.h
-
-C:/Users/kacpe/CLionProjects/data_structures/sources/MyBinaryHeap.cpp
-iostream
--
-conio.h
--
-../headers/MyBinaryHeap.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinaryHeap.h
-
-C:/Users/kacpe/CLionProjects/data_structures/sources/MyBinarySearchTree.cpp
-conio.h
--
-iostream
--
-../headers/MyBinarySearchTree.h
-C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinarySearchTree.h
 
 C:/Users/kacpe/CLionProjects/data_structures/sources/MyList.cpp
 iostream

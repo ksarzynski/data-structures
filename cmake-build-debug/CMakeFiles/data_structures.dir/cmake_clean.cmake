@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/data_structures.dir/sources/MyList.cpp.obj"
   "CMakeFiles/data_structures.dir/sources/MyListElement.cpp.obj"
   "CMakeFiles/data_structures.dir/sources/PrintHelper.cpp.obj"
+  "CMakeFiles/data_structures.dir/sources/TestRunner.cpp.obj"
   "data_structures.exe"
   "data_structures.exe.manifest"
   "data_structures.lib"

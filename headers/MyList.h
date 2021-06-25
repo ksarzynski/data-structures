@@ -26,6 +26,7 @@ public:
     void print();
     void createRandom(int newSize);
     int getSize();
+    int findByValueNoCout(int value);
 
 private:
 
@@ -34,6 +35,7 @@ private:
     MyListElement * tail;
     MyListElement * findElementByIndexMLE(int index);
     MyListElement * findElementByValueMLE(int value);
+    MyListElement * findElementByValueMLENoCout(int value);
 };
 
 

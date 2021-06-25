@@ -4,6 +4,7 @@
 CMakeFiles/data_structures.dir/main.cpp.obj
  C:/Users/kacpe/CLionProjects/data_structures/headers/ConsoleApp.h
  C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/TestRunner.h
  C:/Users/kacpe/CLionProjects/data_structures/main.cpp
 CMakeFiles/data_structures.dir/sources/ConsoleApp.cpp.obj
  C:/Users/kacpe/CLionProjects/data_structures/headers/ConsoleApp.h
@@ -44,3 +45,14 @@ CMakeFiles/data_structures.dir/sources/MyListElement.cpp.obj
 CMakeFiles/data_structures.dir/sources/PrintHelper.cpp.obj
  C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h
  C:/Users/kacpe/CLionProjects/data_structures/sources/PrintHelper.cpp
+CMakeFiles/data_structures.dir/sources/TestRunner.cpp.obj
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyArray.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinaryHeap.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyBinarySearchTree.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyBstNode.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyDataStructure.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyList.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/MyListElement.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/PrintHelper.h
+ C:/Users/kacpe/CLionProjects/data_structures/headers/TestRunner.h
+ C:/Users/kacpe/CLionProjects/data_structures/sources/TestRunner.cpp

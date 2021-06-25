@@ -133,7 +133,7 @@ void ConsoleApp::testingStructure() {
             int value;
             std::cout << "\nEnter value\n";
             std::cin >> value;
-            myDataStructure->removeValue(value);
+            myDataStructure->findByValue(value);
         }
         else if(input == 7){
             testingStructureRunning = false;

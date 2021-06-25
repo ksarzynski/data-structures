@@ -18,6 +18,7 @@ public:
     virtual void print() = 0;
     virtual void createRandom(int newSize) = 0;
     virtual int getSize() = 0;
+    virtual int findByValueNoCout(int value) = 0;
 };
 
 

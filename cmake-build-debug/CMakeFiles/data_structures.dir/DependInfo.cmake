@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/kacpe/CLionProjects/data_structures/sources/MyList.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/MyList.cpp.obj"
   "C:/Users/kacpe/CLionProjects/data_structures/sources/MyListElement.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/MyListElement.cpp.obj"
   "C:/Users/kacpe/CLionProjects/data_structures/sources/PrintHelper.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/PrintHelper.cpp.obj"
+  "C:/Users/kacpe/CLionProjects/data_structures/sources/TestRunner.cpp" "C:/Users/kacpe/CLionProjects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir/sources/TestRunner.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

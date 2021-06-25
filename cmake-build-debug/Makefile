@@ -369,6 +369,33 @@ sources\PrintHelper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\PrintHelper.cpp.s
 .PHONY : sources\PrintHelper.cpp.s
 
+sources\TestRunner.obj: sources\TestRunner.cpp.obj
+
+.PHONY : sources\TestRunner.obj
+
+# target to build an object file
+sources\TestRunner.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\TestRunner.cpp.obj
+.PHONY : sources\TestRunner.cpp.obj
+
+sources\TestRunner.i: sources\TestRunner.cpp.i
+
+.PHONY : sources\TestRunner.i
+
+# target to preprocess a source file
+sources\TestRunner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\TestRunner.cpp.i
+.PHONY : sources\TestRunner.cpp.i
+
+sources\TestRunner.s: sources\TestRunner.cpp.s
+
+.PHONY : sources\TestRunner.s
+
+# target to generate assembly for a file
+sources\TestRunner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_structures.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\data_structures.dir\sources\TestRunner.cpp.s
+.PHONY : sources\TestRunner.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -405,6 +432,9 @@ help:
 	@echo ... sources/PrintHelper.obj
 	@echo ... sources/PrintHelper.i
 	@echo ... sources/PrintHelper.s
+	@echo ... sources/TestRunner.obj
+	@echo ... sources/TestRunner.i
+	@echo ... sources/TestRunner.s
 .PHONY : help
 
 

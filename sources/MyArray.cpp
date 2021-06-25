@@ -76,12 +76,12 @@ int MyArray::findByValue(int value) {
         }
         std::cout << "Value not found, press button";
         _getch();
-        return 0;
+        return INT_MIN;
     }
     else{
         std::cout << "Array is empty, press button";
         _getch();
-        return 0;
+        return INT_MIN;
     }
 }
 
@@ -134,4 +134,18 @@ void MyArray::relocateAndDecrease(int index) {
         dataPointer[i] = temp[i + helper];
     }
     delete[] temp;
+}
+
+int MyArray::findByValueNoCout(int value) {
+    if(size > 0){
+        for(int i = 0; i < size ; i++){
+            if(value == this -> dataPointer[i]){
+                return i;
+            }
+        }
+        return INT_MIN;
+    }
+    else{
+        return INT_MIN;
+    }
 }

@@ -21,6 +21,7 @@ public:
     void print();
     void createRandom(int newSize);
     int getSize();
+    int findByValueNoCout(int value);
 
 private:
     int * dataPointer;
