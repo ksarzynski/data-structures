@@ -15,7 +15,7 @@ MyBinaryHeap::MyBinaryHeap() {
 }
 
 MyBinaryHeap::~MyBinaryHeap() {
-    delete array;
+    delete[] array;
 }
 
 void MyBinaryHeap::insert(int data, int index) {
@@ -27,6 +27,7 @@ void MyBinaryHeap::insert(int data, int index) {
         for(int i = arraySize / 2; i < arraySize; i++)
             temp[i] = INT_MIN;
         array = temp;
+        delete temp;
     }
     int i = currentSize;
     currentSize++;
