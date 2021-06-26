@@ -10,6 +10,7 @@ class MyBstNode {
 
 public:
     MyBstNode(int key);
+    ~MyBstNode();
     int getKey();
 
 private:

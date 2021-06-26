@@ -10,3 +10,7 @@ MyListElement::MyListElement(int data, MyListElement * prev, MyListElement * nex
     this -> prev = prev;
     this -> next = next;
 }
+
+MyListElement::~MyListElement() {
+    ;
+}

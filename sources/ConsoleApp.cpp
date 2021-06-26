@@ -145,3 +145,7 @@ void ConsoleApp::testingStructure() {
         }
     }
 }
+
+ConsoleApp::~ConsoleApp() {
+    delete myDataStructure;
+}

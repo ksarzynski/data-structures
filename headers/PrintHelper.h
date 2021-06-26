@@ -12,6 +12,7 @@ class PrintHelper {
 
 public:
     PrintHelper(PrintHelper * prev, std::string str);
+    ~PrintHelper();
     void printBranch(PrintHelper * ptr);
 
 private:

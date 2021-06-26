@@ -10,6 +10,7 @@ class MyListElement {
 
 public:
     MyListElement(int data, MyListElement * prev, MyListElement * next);
+    ~MyListElement();
 
 private:
     int data;

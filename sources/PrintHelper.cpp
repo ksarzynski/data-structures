@@ -17,3 +17,7 @@ void PrintHelper::printBranch(PrintHelper * ptr){
     printBranch(ptr -> prev);
     std::cout << ptr -> str;
 }
+
+PrintHelper::~PrintHelper() {
+    delete prev;
+}

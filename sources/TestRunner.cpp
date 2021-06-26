@@ -179,6 +179,7 @@ void TestRunner::test(MyDataStructure *myDataStructure, int *values) {
         if(save)
             saveToFile(resultsFileName, values, myDataStructure->getName());
     }
+    delete[] values;
 }
 
 void TestRunner::saveToFile(const std::string& fileName, int *values, const std::string& dataStructure) {

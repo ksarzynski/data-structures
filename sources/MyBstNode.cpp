@@ -14,3 +14,9 @@ MyBstNode::MyBstNode(int key) {
 int MyBstNode::getKey() {
     return key;
 }
+
+MyBstNode::~MyBstNode() {
+    delete left;
+    delete right;
+    delete parent;
+}
